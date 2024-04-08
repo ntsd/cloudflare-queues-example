@@ -1,0 +1,12 @@
+name = "my-worker"
+compatibility_date = "2024-04-08"
+
+[[queues.producers]]
+queue = "my-queue"
+binding = "MY_QUEUE"
+
+[[queues.consumers]]
+queue = "my-queue"
+max_batch_size = 1
+max_batch_timeout = 60
+max_retries = 2

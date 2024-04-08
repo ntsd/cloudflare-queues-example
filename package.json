@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-queues-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy ./src/index.ts",
+    "log": "wrangler tail"
+  },
+  "author": "Jirawat Boonkumnerd (https://ntsd.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240405.0",
+    "typescript": "^5.4.4",
+    "wrangler": "^3.48.0"
+  }
+}
